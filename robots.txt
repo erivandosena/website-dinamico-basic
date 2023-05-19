@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /flash/
+Disallow: /Scripts/
+Disallow: /upload/
+
+# Arquivos Sitemap
+Sitemap: http://localhost/sitemap.xml
